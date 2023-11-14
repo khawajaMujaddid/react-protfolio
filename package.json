@@ -16,10 +16,11 @@
     "@heroicons/react": "^1.0.6",
     "autoprefixer": "^10.4.2",
     "classnames": "^2.3.1",
-    "next": "^12.1.0",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "ts-pattern": "^4.0.3"
+    "next": "^14.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-pattern": "^4.0.3",
+    "yarn": "^1.22.21"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^12.1.0",
@@ -35,7 +36,7 @@
     "@typescript-eslint/parser": "^5.14.0",
     "cssnano": "^5.1.1",
     "eslint": "^8.10.0",
-    "eslint-config-next": "^12.1.0",
+    "eslint-config-next": "^14.0.2",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jsx-a11y": "^6.5.1",
