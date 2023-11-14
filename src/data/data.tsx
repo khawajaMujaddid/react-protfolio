@@ -14,7 +14,7 @@ import porfolioImage1 from '../images/portfolio/portfolio-1.png';
 import porfolioImage2 from '../images/portfolio/portfolio-2.webp';
 import porfolioImage3 from '../images/portfolio/portfolio-3.png';
 import porfolioImage4 from '../images/portfolio/portfolio-4.png';
-  import testimonialImage from '../images/testimonial.webp';
+import testimonialImage from '../images/testimonial.webp';
 import {
   About,
   ContactSection,
@@ -32,8 +32,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Ali Al Mghrbi',
-  description: "Portfolio website of Ali Al Mghrbi",
+  title: 'Mujaddid Mahmood',
+  description: 'Portfolio website of Mujaddid Mahmood',
 };
 
 /**
@@ -57,17 +57,17 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Ali Al Mghrbi.`,
+  name: `Mujaddid Mahmood.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Valby, Denmark based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">[work experience]</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a Pakistan based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
+        at <strong className="text-stone-100">Euphoria XR LLC</strong> helping build a modern web applications, Server
+        Architect.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me coding and coming up with new <strong className="text-stone-100"> solutions</strong>,
-        or exploring beautiful{' '}
+        In my free time time, you can catch me coding and coming up with new{' '}
+        <strong className="text-stone-100"> solutions</strong>, or exploring beautiful{' '}
         <strong className="text-stone-100">Landmarks</strong>.
       </p>
     </>
@@ -93,12 +93,11 @@ export const heroData: Hero = {
 export const aboutData: About = {
   description: `I am a senior web developer with over 5 years of experience in Ruby on Rails, React, and Node.js. I specialize in building robust and scalable web applications, integrating them with other systems, and optimizing them for speed and scalability. I have excellent problem-solving, communication, and collaboration skills, and I follow agile development methodologies to deliver projects on time `,
   aboutItems: [
-    {label: 'Location', text: 'Valby, Denmark', Icon: MapIcon},
+    {label: 'Location', text: 'Pakistan', Icon: MapIcon},
     {label: 'Age', text: '28', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Danish', Icon: FlagIcon},
     {label: 'Interests', text: 'Motorcycles, Coding, Traveling', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Valby', Icon: AcademicCapIcon},
-    {label: 'Employment', text: '[Work]', Icon: OfficeBuildingIcon},
+    {label: 'Study', text: 'Lahore Garrison University', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Euphoria XR LLC', Icon: OfficeBuildingIcon},
   ],
 };
 
@@ -116,10 +115,6 @@ export const skills: SkillGroup[] = [
       {
         name: 'Urdu',
         level: 10,
-      },
-      {
-        name: 'Danish',
-        level: 6,
       },
     ],
   },
@@ -151,24 +146,6 @@ export const skills: SkillGroup[] = [
         name: 'Ruby on Rails',
         level: 9,
       },
-      {
-        name: 'Php',
-        level: 5,
-      },
-    ],
-  },
-  {
-    name: 'Mobile development',
-    skills: [
-      {
-        name: 'React Native',
-        level: 9,
-      },
-      {
-        name: 'Java',
-        level: 5,
-      },
-
     ],
   },
 ];
@@ -228,11 +205,12 @@ export const experience: TimelineItem[] = [
   },
   {
     date: 'October 2018 - July 2021',
-    location: 'Devsinc',
+    location: 'Euphora XR LLC',
     title: 'Sr. Ruby on Rails & React Developer',
     content: (
       <p>
-        Worked as a Senior Ruby on Rails & React Developer. Led a team of developers and trained new interns which helped me tremendously in honing my skills.
+        Worked as a Senior Ruby on Rails & React Developer. Led a team of developers and trained new interns which
+        helped me tremendously in honing my skills.
       </p>
     ),
   },
@@ -240,11 +218,7 @@ export const experience: TimelineItem[] = [
     date: 'May 2017 - August 2018',
     location: 'Gexton IT',
     title: 'Ruby on Rails Developer',
-    content: (
-      <p>
-        Worked as a Ruby on Rails & React developer.
-      </p>
-    ),
+    content: <p>Worked as a Ruby on Rails & React developer.</p>,
   },
 ];
 
@@ -256,15 +230,15 @@ export const testimonial: TestimonialSection = {
   testimonials: [
     {
       name: 'Hassan Ali',
-      text: 'Ali is a very talented individual, he is really committed and focused about his work. He is the person I would trust to build my project.',
+      text: 'Mujaddid is a very talented individual, he is really committed and focused about his work. He is the person I would trust to build my project.',
     },
     {
       name: 'Sheroz Irfan',
-      text: 'Ali al Mghrbi is a highly skilled and reliable Ruby on Rails developer. They delivered efficient and maintainable code for our project and had great communication throughout. I would definitely recommend them',
+      text: 'Mujaddid al Mghrbi is a highly skilled and reliable Ruby on Rails developer. They delivered efficient and maintainable code for our project and had great communication throughout. I would definitely recommend them',
     },
     {
       name: 'Will brown',
-      text: 'ALi is a skilled and reliable full-stack developer with expertise in Ruby on Rails, React, and Node. They consistently delivered high-quality code that was performant and scalable. Working with them was seamless, and I highly recommend them for your next project.',
+      text: 'Mujaddid is a skilled and reliable full-stack developer with expertise in Ruby on Rails, React, and Node. They consistently delivered high-quality code that was performant and scalable. Working with them was seamless, and I highly recommend them for your next project.',
     },
   ],
 };
@@ -279,12 +253,12 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'alialmghrbi',
+      text: 'Mujaddid Mahmood',
       href: 'mailto:kh.mujaddid36@gmail.com',
     },
     {
       type: ContactType.Github,
-      text: 'alialmghrbi',
+      text: 'Mujaddid Mahmood',
       href: 'https://github.com/khawajaMujaddid',
     },
   ],
@@ -293,6 +267,4 @@ export const contact: ContactSection = {
 /**
  * Social items
  */
-export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/khawajaMujaddid'},
-];
+export const socialLinks: Social[] = [{label: 'Github', Icon: GithubIcon, href: 'https://github.com/khawajaMujaddid'}];
